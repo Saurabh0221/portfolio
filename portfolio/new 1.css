@@ -1,0 +1,218 @@
+/* Continue from the previous styles */
+
+/* Styling for the 'Education' and 'Additional Information' sections */
+#education,
+#additional-info {
+  background-color: #f4f4f4;
+  margin-top: 2rem;
+}
+
+/* Styling for the 'Education' section content */
+#education h2,
+#additional-info h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+#education p,
+#additional-info p {
+  color: #555;
+}
+
+/* Styling for the 'Contact' section */
+#contact {
+  margin-top: 2rem;
+}
+
+/* Styling for the 'Contact' section content */
+#contact h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  color: #555;
+}
+
+/* Styling for the 'Footer' */
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Additional styling for the 'Projects' section */
+.project h3 {
+  color: #3498db;
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for the 'Skills' section */
+.skills div {
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Hover effect for skills */
+.skills div:hover {
+  background-color: #2c3e50;
+}
+
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    padding: 0.3rem;
+  }
+
+  section {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+/* Additional styling for the 'About Me' section */
+#about p {
+  color: #555;
+}
+
+/* Styling for the 'Projects' section */
+#projects .project {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Hover effect for project boxes */
+#projects .project:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+/* Continue from the previous styles */
+
+/* Additional styling for the 'Internship' section */
+#internship p {
+  color: #555;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.2rem;
+}
+
+/* Styling for the 'Header' */
+header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 2rem 0;
+}
+
+/* Styling for the 'Name' in the header */
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for the 'Job Title' in the header */
+header p {
+  font-size: 1.2rem;
+}
+
+/* Styling for the 'Navigation' */
+nav {
+  background-color: #2c3e50;
+  padding: 0.8rem 0;
+}
+
+/* Styling for the 'Navigation Links' */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  transition: color 0.3s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 0.2rem;
+}
+
+/* Styling for the 'Back to Top' link */
+#back-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  display: none;
+  transition: background-color 0.3s ease;
+}
+
+#back-to-top:hover {
+  background-color: #2c3e50;
+}
+
+/* Additional styling for the 'Certifications' and 'Achievements' sections */
+#certifications h2,
+#achievements h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+#certifications p,
+#achievements p {
+  color: #555;
+}
+
+/* Additional styling for the 'References' section */
+#references h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+#references p {
+  color: #555;
+}
+
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    padding: 0.3rem;
+  }
+
+  section {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
